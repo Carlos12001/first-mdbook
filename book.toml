@@ -1,0 +1,14 @@
+[book]
+authors = ["Carlos12001"]
+language = "es"
+multilingual = false
+src = "src"
+title = "My First MDBook"
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true  # insert page-break after each chapter
+
+
+[output.html]
+mathjax-support = true
